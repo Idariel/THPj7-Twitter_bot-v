@@ -27,10 +27,10 @@ client.update('Bonjour monde')
 
 #Streaming authorization
 client = Twitter::Streaming::Client.new do |config|
-  config.consumer_key        = "JZHUAH021pcecbxUwBcZV4jpR"
-  config.consumer_secret     = "7j2cygY6Q3WuThXpStUq1plqe6rSwiMegUlsYvb7XUwkWcV4tj"
-  config.access_token        = "4501301836-B1Yw79sgosckPrvH1IQvy71IJB0aCQjg4VBxdMK"
-  config.access_token_secret = "gYlZtGjfGAEpaHYAZnActDEMV8H5yLEeexg8DBqP6Dq2x"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 
 #.take(10) est rajouté pour n'afficher que 10 tweet sinon pb d'arrêt
